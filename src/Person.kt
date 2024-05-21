@@ -9,4 +9,8 @@ class Person(
         println("Hello from ${"$second_name $first_name"}")
     }
 
+    fun aboutMe() {
+        println("I'm a $age old. I'm a ${if (male) "Big Man" else "Single Lady"}")
+    }
+
 }

@@ -4,6 +4,8 @@ fun main() {
 
     val killRealPerson = Person("Kirill", "Aganesyan", 18, true)
     killRealPerson.sayHello()
+    killRealPerson.aboutMe()
+
 }
 
 fun sqrPower(x: Int): Int {
