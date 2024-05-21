@@ -1,12 +1,12 @@
 class Person(
-    val first_name: String,
-    val second_name: String,
-    var age: Int,
-    val male: Boolean
+    private val firstName: String,
+    private val secondName: String,
+    private var age: Int,
+    private val male: Boolean
 ) {
 
     fun sayHello() {
-        println("Hello from ${"$second_name $first_name"}")
+        println("Hello from ${"$secondName $firstName"}")
     }
 
     fun aboutMe() {
